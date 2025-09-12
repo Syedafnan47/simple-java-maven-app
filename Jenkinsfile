@@ -17,7 +17,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: ‘https://github.com/jagdishmodi/simple-java-maven-app.git’
+                git url: "https://github.com/jagdishmodi/simple-java-maven-app.git"
             }
         }
 
